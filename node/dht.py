@@ -354,7 +354,7 @@ class DHT(object):
         self._threadedRepublishData()
 
     @_synchronized
-    def _threaded_republish_data(self, *args):
+    def _threadedRepublishData(self, *args):
         """ Republishes and expires any stored data (i.e. stored
         C{(key, value pairs)} that need to be republished/expired
 
